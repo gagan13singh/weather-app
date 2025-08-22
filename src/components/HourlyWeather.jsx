@@ -7,7 +7,7 @@ const HourlyWeatherItem=({hourlyWeather})=>{
     return(
         <li className='weatherItem'>
             <p className='time'>{time}</p>
-            <img src={`icons/${weatherIcon}.svg`}  className='weatherIcon'></img>
+            <img src={`icons/${weatherIcon}`}  className='weatherIcon'></img>
             <p className='temperature'>20 &deg;</p>
           </li>
     )
